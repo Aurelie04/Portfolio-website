@@ -13,17 +13,20 @@
         <div class="container">
             <nav>
                 <img src="images/logo2.PNG" class="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>UI/UX Designer</p>
-                <h1>Hi, I am <span>Aurelie</span><br>Nana from South Africa</h1>
+                <p>Full stack developer</p>
+                <h1>Hi there, I am <span>Aurelie</span><br>Nana from South Africa</h1>
             </div>
 
         </div>
@@ -33,22 +36,29 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/user.png" alt="">
+                    <img src="images/userTwo.jpg" alt="">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
                     <p>
                         A Software Engineer with a Diploma in Computer Science 
-                          and currently pursuing an Advanced Diploma in Computer 
-                          Science. Strong communication and problem-solving 
-                          skills, with a passion for delivering high-quality software 
-                          solutions. Known for being an innovative thinker, with 
-                          proven success in evaluating requirements for software 
-                          development projects and creating effective, creative 
-                          solutions. Adept at working collaboratively within teams 
-                          and consistently meeting deadlines. Eager to contribute 
-                          to a respected organization that values dedication, 
-                          attention to detail, and a commitment to excellence.
+                        and currently pursuing an Advanced Diploma in Computer 
+                        Science. Strong communication and problem-solving 
+                        skills, with a passion for delivering high-quality software 
+                        solutions. Known for being an innovative thinker, with 
+                        proven success in evaluating requirements for software 
+                        development projects and creating effective, creative 
+                        solutions. Adept at working collaboratively within teams 
+                        and consistently meeting deadlines. Eager to contribute 
+                        to a respected organization that values dedication, 
+                        attention to detail, and a commitment to excellence.<br>
+  
+                        <br>I am currently looking for opportunities, which will 
+                         provide career advancement, with the chance to use and 
+                         contribute my skills and theoretical knowledge in a 
+                         practical space. Most importantly, I am looking for an 
+                         environment where I will have the possibility to develop 
+                         both professionally and personally. 
                     </p>
                     <div class="tab-titles" >
                         <p  class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -57,25 +67,25 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI?UX</span><br>Designing Web/Ap interfaces</li>
-                            <li><span>Web Development</span><br>Web app Development</li>
-                            <li><span>App Development</span><br>Building <Android>
+                            <li><span>UI/UX</span><br>Design Web Application aand prototype interfaces</li>
+                            <li><span>Web Development</span><br>Web Application Development, building, testing and deployment</li>
+                            <li><span>Database Management</span><br>Data manipulation, data analysis <Android>
                             <ios></ios></li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>2021 - Curent</span><br>UI/Ux TraiNing At EF</li>
-                            <li><span>2019 - 2021</span><br>Team Web app Development</li>
-                            <li><span>2017 - 2019</span><br>Design executive<Android>
-                            <ios></ios></li>
+                            <li><span>2025 - Freelancer</span><br>Full stack developer</li>
+                            <li><span>2024(Oct) - 2024(Nov)</span><br>Software Developer: Woo Commerce Application</li>
+                            <li><span>2023 - 2024</span><br>Software Engineer</li>
+                            <li><span>2023(Jan) - 2023(Jul)</span><br>AEM Developer Intern</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2016</span><br>Training at EF</li>
-                            <li><span>2016t</span><br>Advanced diploma</li>
-                            <li><span>2014</span><br>College<Android>
+                            <li><span>2025</span><br>Tshwane University Of Technology: Advanced Diploma in Computer Science</li>
+                            <li><span>2024</span><br>Tshwane University Of Technology: Diploma in Computer Science</li>
+                            <li><span>2019</span><br>Rosebank College: Higher Certificate in IT Support Services <Android>
                             <ios></ios></li>
                         </ul>
                     </div>
@@ -92,24 +102,52 @@
                     <div>
                         <i class="fa-solid fa-code"></i>
                         <h2>Web Design</h2>
-                        <p> Strong communication and problem-solving 
-                            skills, with a passion for delivering high-quality software </p>
+                        <p> Experienced in designing and developing user-friendly and responsive websites, primarily utilizing WordPress. Demonstrated ability to select and customize themes, integrate branding elements, and implement key functionalities to enhance user engagement.<br>
+
+                            <br><b>Key Projects: </b><br>
+                            
+                            <br>DC Aviation Charter Aviation Website (Absol Business International)<br>
+                            <br>Contribution to Client Websites (Absol Business International)<br>
+                            <br>UI Module Development (Mphoti Consulting - Software Engineering Intern)<br>
+                            <br>Learning Management System(Mphoti Consulting - Software Engineering Intern)<br>
+                             
+                             </p>
                             <a href="#">Learn more</a>
                     </div>
 
                     <div>
                         <i class="fa-solid fa-crop-simple"></i>
                         <h2>UI/UX Design</h2>
-                        <p> Strong communication and problem-solving 
-                            skills, with a passion for delivering high-quality software </p>
+                        <p> Focused on creating intuitive and engaging user experiences through thoughtful design and implementation. Experience in understanding user needs, developing user interface components, and ensuring seamless functionality across web applications.</p><br>
+                        
+                        <br><b>Key Projects: </b><br>
+                            
+                        <br>E-commerce Site Development (Mphoti Consulting)<br>
+                        <br>Web Application with React.js (Personal Project)<br>
+                        <br>Konekt Web App Development (Client Project)<br>
+                        
+                         
+                         </p>
                             <a href="#">Learn more</a>
                     </div>
 
                     <div>
-                        <i class="fa-brands fa-app-store"></i>
-                        <h2>App Design</h2>
-                        <p> Strong communication and problem-solving 
-                            skills, with a passion for delivering high-quality software </p>
+                        <i class="fa-solid fa-computer"></i>
+                        <h2>Web Development</h2>
+                        <p> Proficient in developing and contributing to various web applications, with experience in both frontend and backend technologies. Skilled in utilizing frameworks like Spring Boot, Node.js, and React.js, and experienced in database management and security implementation.</p><br>
+                        
+                        <br><b>Key Projects: </b><br>
+                            
+                        <br>Software Developer (Absol Business International)<br>
+                        <br>Junior Software Engineer (Mphoti Consulting)<br>
+                        <br>Software Engineering Intern (Mphoti Consulting)<br>
+                        <br>Security Implementation with JWT (Personal Project)<br>
+                        <br>Web Application with React.js (Personal Project)<br>
+                        <br>SpringBoot and React.js Web Application (Personal Project)<br>
+                        
+                        
+                         
+                         </p>
                             <a href="#">Learn more</a>
                     </div>
                 </div>
@@ -121,27 +159,36 @@
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/work-1.png" alt="">
-                    <div class="layer"></div>
+                    <img src="images/work-1.jpg" alt="">
+                    <div class="layer"></div><br>
                         <h3>Tailwind Web App</h3>
-                        <p>Strong communication and problem-solving Strong communication and problem-solving</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <p>This is a practice project built with<br>
+                           Tailwind CSS to explore the framework's capabilities for creating layouts<br> It focuses on using Tailwind classes to implement a navigation bar and<br> style the overall frontend for a visually appealing design.</p>
+                            <a href="https://github.com/Aurelie04/Tailwind-Project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
                 <div class="work">
                     <img src="images/work-2.png" alt="">
-                    <div class="layer"></div>
-                        <h3>Gemini Web App</h3>
+                    <div class="layer"></div><br>
+                        <h3>Aureli AI Web App</h3>
                         <p>Strong communication and problem-solving Strong communication and problem-solving</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/Aurelie04/Portfolio-website"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
+                <div class="work">
+                    <img src="images/logo2.png" alt="">
+                    <div class="layer"></div>
+                        <h3>My Portfolio</h3>
+                        <p>Strong communication and problem-solving Strong communication and problem-solving</p>
+                            <a href="https://github.com/Aurelie04/Portfolio-website"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
                 <div class="work">
                     <img src="images/work-3.png" alt="">
                     <div class="layer"></div>
                         <h3>My Portfolio</h3>
                         <p>Strong communication and problem-solving Strong communication and problem-solving</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/Aurelie04/Portfolio-website"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
+                </div>
+                
                 </div>
                 
             </div>
@@ -157,23 +204,30 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact me</h1>
-                    <p>aurelienana25@gmail.com</p>
-                    <p>0606447855</p>
+                    <p><i class="fa-solid fa-paper-plane"></i> aurelienana25@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0606447855</p>
                     <div class="social-icons">
                         <a href=""><i class="fa-brands fa-linkedin"></i></a>
                         <a href=""><i class="fa-brands fa-github"></i></i></a>
                         <a href=""><i class="fa-brands fa-square-instagram"></i></a>
                     </div>
+                    <a href="images/my-cv.pdf" download="" class="btn btn2">Download CV</a>
                 </div>
+                
                 <div class="contact-right">
-                    <form>
+                    <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit">Submit</button>
+                        <button type="submit" class="btn btn2">Submit</button>
                     </form>
+                    <span id="msg"></span>
                 </div>
             </div>
+             <div class="copyright">
+                <p>Copyright @Aurelie. Made with <i class="fa-solid fa-heart"></i> love</p>
+             </div>
+
         </div>
     </div>
 
@@ -193,5 +247,39 @@
             document.getElementById(tabname).classList.add("active-tab");
           }
     </script>
+
+    <script>
+
+        var sidemenu = document.getElementById(sidemenu);
+        function openmenu(){
+           sidemenu.style.right = "0";    
+        }
+        function closemenu(){
+           sidemenu.style.right = "-200px";    
+        }
+    </script>
+    <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzHrLB8AZZ8UFokApiCdhn7-x4jE4mrfYO9REWEAY4o5J2R4UaucO7ImuMrY1HlMXBb/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
 </html>
