@@ -180,22 +180,27 @@ nav ul li a:hover::after{
 }
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
-    gap: 5px;
+    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+    gap: 30px;
     margin-top: 50px;
 }
 .work{
+    
     border-radius: 10px;
     position: relative;
+    align-items: center;
+    flex-direction: column;
     overflow: hidden;
 }
 .work img{
-   width: 50%;
+   width: 70%;
    height: auto;
    border-radius: 10px;
    display: block; 
    object-fit: cover;
    transition: transform 0.5s;
+   
+
 }
 .layer{
     width: 100%;
